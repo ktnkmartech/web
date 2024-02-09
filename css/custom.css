@@ -1,0 +1,73 @@
+.s_logotypes_blk {
+    margin-top: 15px;
+}
+
+.logo_blk{
+    margin: 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.063);
+    border-radius: 15px;
+}
+
+.logo_blk:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.117);
+}
+
+.s_logo {
+    width: 80px;
+    filter: brightness(80%); /* Затемнение логотипа */
+    transition: filter 0.3s ease; /* Плавное изменение фильтра за 0.3 секунды с эффектом плавности */
+}
+
+.s_logo:hover {
+    filter: brightness(100%); /* Осветление логотипа при наведении */
+}
+
+.text_logo {
+    margin-bottom: 5px;
+    /* color: #9A00DA; */
+    color: gray;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.text-center {
+    margin-top: 15px;
+}
+
+.about_us {
+    margin-top: 55px!important;
+}
+
+.blk {
+    margin: 5px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.063);
+    border-radius: 15px;
+    /* min-height: 100%; */
+    width: auto;
+}
+
+.blk:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.21);
+}
+
+.blk_content {
+    padding: 10px;
+}
+
+.text_big_logo {
+    margin-bottom: 5px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: color 0.3s ease; /* Плавное изменение цвета за 0.3 секунды с эффектом плавности */
+}
+
+.curlang {
+    color: #8200b9b0;
+}
