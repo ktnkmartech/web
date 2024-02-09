@@ -1026,10 +1026,10 @@ input.form-control {
   background-repeat: repeat;
 }
 .overlay.light:before {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 .overlay.dark:before {
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 .overlay:before {
   content: '';
@@ -1039,7 +1039,7 @@ input.form-control {
   left: 0;
   top: 0;
   z-index: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.90);
 }
 
 /**
