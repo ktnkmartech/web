@@ -72,9 +72,11 @@
     color: #8200b9b0;
 }
 
-.page-footer {
-    margin-top: 50px;
-}
-.navbar-header {
-    margin-bottom: 50px;
+@media only screen and (max-width: 767px) {
+    .tools {
+        padding-bottom: 100px;
+    }
+    .welcome {
+        padding-top: 100px;
+    }
 }
