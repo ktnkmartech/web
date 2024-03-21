@@ -1,7 +1,7 @@
 // Функция для отправки данных на API без ожидания ответа
 function sendDataToAPI(data) {
     // Замените URL_API на URL вашего внешнего API
-    const apiUrl = 'https://script.google.com/macros/s/AKfycbylSnAu3Qtg_PAphJBM2B0IFYVOv3qVfwFlzqCQyX-kioNtqVxyE_JuYzJAXCOpUYG0uA/exec';
+    const apiUrl = 'https://script.google.com/macros/s/AKfycbxBe21mJA3BFE2kt6ibctcr6Fa0HQ6FKzy64CgsUbUUe5FNRLrFKrzgSDa6V6dUAYe73A/exec';
 
     // Опции запроса
     const options = {
@@ -92,6 +92,7 @@ getIpAddress()
                     language: navigator.language,
                     screenWidth: window.screen.width,
                     screenHeight: window.screen.height,
+                    appVersion: navigator.appVersion,
                     platform: navigator.platform,
                     cookiesEnabled: navigator.cookieEnabled,
                     timeZoneOffset: new Date().getTimezoneOffset(),
@@ -104,6 +105,8 @@ getIpAddress()
                     utm_campaign: urlParams.get('utm_campaign') || '',
                     utm_term: urlParams.get('utm_term') || '',
                     utm_content: urlParams.get('utm_content') || '',
+                    refferer: document.referrer || '',
+                    title: document.title || '',
                 };
                 console.log('visitData:', visitData);
                 // Отправка данных на API с полученными данными
